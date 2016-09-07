@@ -11,8 +11,8 @@ a:link, a:visited {
 }
 
 #header {
-  background-color: #28728D;
-  color: #CECECE;
+    background-color: #6c7175;
+    color: #6c7175;
 }
 
 #header label {
@@ -114,9 +114,8 @@ thead th {
 tr.even td, tr.even th {
     background: rgba(107, 112, 115, 0.25);
 }
-
 #main {
-  border-top: 1px solid #28728D;
+  border-top: 1px solid #6c7175;
   background-image: none;
 }
 
