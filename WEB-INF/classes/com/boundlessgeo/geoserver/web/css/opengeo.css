@@ -93,9 +93,26 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Enterprise or Basic header basic */
 #header h2 a {
-  background-image: url('../img_opengeo/logo2-basic.png');
+  background-image: url('../img_opengeo/logo_hipocampo.png');
+  background-size: 180px 50px;
   margin-left: 15px;
   width: 468px;
+}
+/*Ocultar Boton Cerrar Sessión*/
+.button-group a.button-logout {
+    float: right;
+    margin: -5px 0 0 1em;
+    display: none;
+}
+/*Cambio de Color thead*/
+thead th {
+    background: #6b7073;
+    color: #fff;
+    border-color: #6b7073;
+}
+/*tr th event*/
+tr.even td, tr.even th {
+    background: rgba(107, 112, 115, 0.25);
 }
 
 #main {
